@@ -3,7 +3,6 @@ import random
 from city_data import generate_city_data
 
 app = Flask(__name__)
-
 # Generate weather data for 1000+ cities including all Nepal cities
 weather_data = generate_city_data()
 
