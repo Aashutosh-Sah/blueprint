@@ -9,8 +9,6 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Load dataset
 df = pd.read_csv("spam_email_dataset.csv")
-
-
 # Preprocessing function
 def preprocess_text(text):
     text = text.lower()
